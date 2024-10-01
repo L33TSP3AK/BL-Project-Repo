@@ -1,0 +1,34 @@
+﻿
+[Project Settings]
+ProjectName=Jetbrains
+[Request Settings]
+Domain=jetbrains.com
+ResponseValide=<p class="text-danger">Please confirm you're going to cancel the subscription.</p>
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=False	XMLHttpRequest
+Referer=False	
+ContentType=True	text/html;charset=UTF-8
+Accept=True	text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Body=
+URL=https://account.jetbrains.com/licenses
+Method=GET
+
+[Parser Settings]
+ParsURL=https://account.jetbrains.com/licenses
+ParsBefore=</h1>
+ParsAfter=
+              <div class="pull-left">
+                <h1>
+UseParser=True
+MethodParser=One
+UseURL=True

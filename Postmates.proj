@@ -1,0 +1,32 @@
+﻿
+[Project Settings]
+ProjectName=Postmates https://t.me/+Jm4_KdLoHpM1NWU1
+[Request Settings]
+Domain=postmates.com
+ResponseValide={\u0022isLoggedIn\u0022:true}
+Header5=
+Header4=
+Header3=
+Header2=
+Header1=
+AddHeader5=False
+AddHeader4=False
+AddHeader3=False
+AddHeader2=False
+AddHeader1=False
+X-Requested-With=True	XMLHttpRequest
+Referer=False	
+ContentType=True	text/html; charset=utf-8
+Accept=True	text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+UserAgent=True	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Body=
+URL=https://postmates.com/feed
+Method=GET
+
+[Parser Settings]
+ParsURL=https://postmates.com/feed
+ParsBefore=</div>
+ParsAfter=class="d3 bd bb d4">
+UseParser=True
+MethodParser=All
+UseURL=True
